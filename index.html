@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box1{
+        width: 650px;
+        height: 650px;
+        font-size: 50px;
+        color: white;
+        background-color: rgb(95, 75, 7);
+        text-align: center;
+    }
+    @media (max-width:300px){
+        .box1{
+        width: 550px;
+        height: 550px;
+        font-size: 50px;
+        color: white;
+        background-color: rgb(144, 139, 4);
+        text-align: center;
+    } 
+    }
+    @media(min-width:300px) and (max-width:500px){
+        .box1{
+        width: 450px;
+        height: 450px;
+        font-size: 40px;
+        color: white;
+        background-color: rgb(62, 62, 60);
+        text-align: center;
+    } 
+    }
+    @media(min-width:500px) and (max-width:600px){
+        .box1{
+        width: 350px;
+        height: 350px;
+        font-size: 30px;
+        color: white;
+        background-color: rgb(41, 63, 74);
+        text-align: center;
+    } 
+    }
+</style>
+<body>
+    <div class="box1">Hello World!</div>
+</body>
+</html>
